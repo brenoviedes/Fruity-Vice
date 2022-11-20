@@ -1,0 +1,11 @@
+api: https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+
+endPoint: entries/en/hello
+
+exibir: Meanings
+        Significado
+	Defnição
+
+Interface: Não precisa de header
+	   Fazer a busca e exibir todas as definições
+	   Resposta numa div separada           
