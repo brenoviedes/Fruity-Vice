@@ -10,12 +10,11 @@ export const Container = styled.div`
 `;
 
 export const SearchDiv = styled.div`
-  justify-content: flex-end;
+  justify-content: center;
   display: flex;
   background-color: var(--light);
 
   @media only screen and (max-width: 500px) {
-    justify-content: center;
     flex-direction: column-reverse;
   }
 `;
@@ -31,6 +30,7 @@ export const SearchInput = styled.input`
   color: var(--dark);
   font-family: 'regular';
   background-color: var(--light);
+  
 
   @media only screen and (max-width: 500px) {
     width: 100%;
@@ -49,6 +49,7 @@ export const SearchButton = styled.button`
   background-color: var(--blue);
   cursor: pointer;
   color: var(--light);
+  
 
   @media (max-width: 500px) {
     height: 42px;
@@ -65,13 +66,14 @@ export const FruitNotFound = styled.span`
 `;
 
 export const SelectNutritions = styled.select`
-box-sizing: border-box;
+  box-sizing: border-box;
   height: auto;
   border: 2px solid #d5b8ff;
   background-color: var(--light);
   padding: 0 10px;
   margin-right: 10px;
   font-family: 'bold';
+  border-radius: 8px;
 
   @media (max-width: 500px) {
     width: 100%;
@@ -84,7 +86,7 @@ export const NutriotionsOption = styled.option`
   font-size: 100%;
   color: #8c14fc;
   font-family: 'regular';
-
+  
   @media (max-width: 500px) {
     text-align-last: center;
     text-align: center;
