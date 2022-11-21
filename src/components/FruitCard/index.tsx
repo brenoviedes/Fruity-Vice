@@ -36,7 +36,7 @@ const FruitCard = ({ fruit }: Props) => {
           <FruitInfo><span><strong>Genus:</strong> {fruitGenus}</span></FruitInfo>
           <FruitInfo><span><strong>Family:</strong> {fruitFamily}</span></FruitInfo>
           <FruitInfo><span><strong>Order:</strong> {fruitOrder}</span></FruitInfo>
-          <FruitInfo><span><strong>Nutritions: </strong></span></FruitInfo>
+          <FruitInfo><span><strong>Nutrition Facts (per 100 grams): </strong></span></FruitInfo>
           {fruitNutrition.filter(([key]) => {
             if (nutrition === 'all') return true;
             return key === nutrition;

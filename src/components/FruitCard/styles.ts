@@ -36,4 +36,8 @@ export const Nutritions = styled.div`
   width: 100%;
   height: auto;
   padding-left: 50px;
+
+  &::after {
+    content: " g";
+  }
 `
