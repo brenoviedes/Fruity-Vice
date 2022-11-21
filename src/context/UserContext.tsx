@@ -1,13 +1,12 @@
 import { createContext, ReactNode, useState } from 'react'
-import Fruit, { Nutrition } from '../models/Fruit'
 
 type UserContextType = {
-  nutrition: any
-  setNutrition: (newState: any) => void
+  nutrition: string
+  setNutrition: (newState: string) => void
 }
 
 const initialValue: UserContextType = {
-  nutrition: '',
+  nutrition: 'all',
   setNutrition: () => {},
 }
 

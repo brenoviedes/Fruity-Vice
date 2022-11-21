@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  box-sizing: border-box;
   background-color: var(--dark);
-  padding: 30px 20px;
+  width: 100%;
+  padding: 30px 20px; 
   margin-bottom: 20px;
 
   @media only screen and (max-width: 520px) {

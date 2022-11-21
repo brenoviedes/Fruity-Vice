@@ -27,15 +27,5 @@ export default class Fruit {
         this.family = family 
         this.order = order 
         this.nutritions = nutritions
-
-        // this.word = word
-        // this.meanings = meanings.forEach(({partOfSpeech, definitions}: any) => {
-        //     return {
-        //         partOfSpeech,
-        //         definitions: definitions.forEach(({item}: any) => {
-        //             return {item}
-        //         })
-        //     }
-        // })
     }
 } 

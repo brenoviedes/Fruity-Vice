@@ -5,6 +5,7 @@ const PaletteStyles = createGlobalStyle`
     --blue: #00003f;
     --light: #f5f5f5;
     --dark: #261622;
+    --blue-light: #d5b8ff;
   }
 `;
 
